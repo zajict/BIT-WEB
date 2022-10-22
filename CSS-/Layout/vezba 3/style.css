@@ -1,0 +1,64 @@
+#one-page-content {
+    width: 63.2%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+
+#nav-bar {
+    background-color: rgb(177, 53, 53);
+    width: 960px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+li, a {
+    display: inline;
+    color: rgb(255, 255, 255);
+    float:right;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+img {
+    height: 560px;
+    width: 101%;
+}
+
+.grid-item {
+    margin: 10px;
+    width: 32%;
+}
+
+.grid-item-box {
+    width: 300px;
+    height: 200px;
+}
+
+#box-color-red{
+    background-color: rgb(191, 43, 43);
+}
+
+#box-color-darkblue {
+    background-color: rgb(36, 53, 66);
+}
+
+#blog-title-box {
+    background-color: rgb(236, 168, 30);
+}
+
+#box-color-yellow {
+    background-color: rgb(255, 204, 0);
+}
+
+#box-color-green {
+    background-color: rgb(61, 181, 73);
+}
+
+
+h3 {
+   font-size: 35px;
+   color: aliceblue;
+   padding: 25%;
+}
+
