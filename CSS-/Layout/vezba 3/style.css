@@ -22,17 +22,26 @@ li, a {
 
 img {
     height: 560px;
-    width: 101%;
+    width: 960px;
 }
 
-.grid-item {
-    margin: 10px;
+/* .grid-item {
     width: 32%;
+} */
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .grid-item-box {
     width: 300px;
     height: 200px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px
 }
 
 #box-color-red{
@@ -45,8 +54,13 @@ img {
 
 #blog-title-box {
     background-color: rgb(236, 168, 30);
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding: 30px 12px 12px;
+    box-sizing: border-box;
+    
 }
 
 #box-color-yellow {
@@ -64,3 +78,13 @@ h3 {
    padding: 25%;
 }
 
+.cros-line {
+    width: 95%;
+    height: 0.6px;
+    margin: 0 auto;
+    background-color: rgb(105, 103, 103);
+}
+
+.box-p {
+    font-size: 18px;
+}
