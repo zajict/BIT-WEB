@@ -4,19 +4,19 @@
     flex-direction: column;
 }
 
-#first-square {
+#first-box {
     background-color: blue;
     width: 200px;
     height: 200px;
 }
 
-#second-square {
+#second-box {
     background-color: cyan;
     width: 200px;
     height: 200px;
 }
 
-#third-square {
+#third-box {
     background-color: darkblue;
     width: 200px;
     height: 200px;
@@ -24,25 +24,29 @@
 
 
 
-#second-square {
-    position: relative;
+#second-section {
     display: flex;
     flex-direction: column;
+    position: relative;
+   
+
 }
 
-#fourth-square {
+#fourth-box {
     background-color: blue;
     width: 200px;
     height: 200px;
+    position:absolute;
+    top:10px;
 }
 
-#fifth-square {
+#fifth-box {
     background-color: cyan;
     width: 200px;
     height: 200px;
 }
 
-#sixth-square {
+#sixth-box {
     background-color: darkblue;
     width: 200px;
     height: 200px;
@@ -50,25 +54,25 @@
 
 
 
-#third-square {
+#third-section {
     position: absolute;
     display: flex;
     flex-direction: column;
 }
 
-#seventh-square {
+#seventh-box {
     background-color: blue;
     width: 200px;
     height: 200px;
 }
 
-#eighth-square {
+#eighth-box {
     background-color: cyan;
     width: 200px;
     height: 200px;
 }
 
-#ninth-square {
+#ninth-box {
     background-color: darkblue;
     width: 200px;
     height: 200px;
