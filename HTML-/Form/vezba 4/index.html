@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vezba 4</title>
+</head>
+<body>
+    <form action="./server.html" method="get">
+
+        <fieldset>
+            <legend>Personal data</legend>
+            <br>
+            <label>Name</label>
+            <input type="name" value="name" placeholder="Name" required>
+
+            <label>Email address</label>
+            <input type="email" name="email" placeholder="email" required>
+
+            <label>Phone number</label>
+            <input type="number" required>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Location</legend>
+            <br>
+            <label>city</label>
+            <input type="text" name="city" placeholder="City" required>
+
+            <label>Street</label>
+            <input type="text" name="street" placeholder="Street" required>
+
+            <label>Street number</label>
+            <input type="number" name="street-number" placeholder="Street number" required>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Event info</legend>
+            <br>
+            <select name="event" >
+                <option value="birthday">Birthday</option>
+                <option value="wedding" selected >Wedding</option>
+                <option value="company">Company</option>
+            </select>
+        
+            <label>Number of expected guests </label>
+            <input type="number" placeholder="50">
+        </fieldset>
+    </form>
+</body>
+</html>

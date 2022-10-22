@@ -1,0 +1,25 @@
+table {
+    margin-left: 35%;
+    border-spacing: 0px;
+}
+
+th {
+    background-color:red;
+}
+
+img {
+    height: 100px;
+}
+
+th, td {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+tr:hover {
+    background-color: yellow;
+}

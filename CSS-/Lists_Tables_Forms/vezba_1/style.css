@@ -1,0 +1,32 @@
+body {
+    margin: 40px ;
+}
+
+#ul-1 {
+    list-style-type: circle;
+}
+#ul-2 {
+    list-style-type:square;
+}
+
+#ol-1 {
+    list-style-type:upper-alpha;
+}
+
+#ol-2 {
+    list-style-type:upper-roman;
+}
+
+
+#ul-3 {
+    list-style-image: url(./Icon/img.png);
+}
+
+#ul-4 {
+    list-style-image: url(./Icon/menu.png);
+    list-style-position: inside;
+}
+
+#ul-3, #ul-4 {
+    width: 200px;
+}

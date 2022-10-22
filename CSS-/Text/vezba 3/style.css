@@ -1,0 +1,13 @@
+#first-paragraph {
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+#second-paragraph {
+    line-height: 200%;
+    text-align: right;
+}
+
+#third-paragraph {
+    text-align: center;
+}

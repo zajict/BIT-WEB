@@ -1,0 +1,54 @@
+/* 
+#first_paragraph {
+    color:DarkTurquoise;
+}
+
+#second_paragraph {
+    color:rgb(0, 206, 209);
+}
+
+#third_paragraph {
+    color:	#00ced1;
+} */
+
+
+#first_paragraph {
+     color:#006080;
+    background-color: #cce6ff;
+    opacity: 0.5;
+}
+
+#second_paragraph {
+    color: rgb(22, 45, 194);
+    background-color: rgb(73, 19, 19, 0.5);
+}
+
+#third_paragraph {
+    color:burlywood;
+    background-color: brown;
+}
+
+table, tr, th, td {
+    border: black solid 2px;
+}
+
+.first_col {
+    background-color:AliceBlue;
+}
+
+.second_col {
+    background-color: hotpink;
+}
+
+.third_col {
+    background-color:#ffccff ;
+}
+
+.fourth_col {
+    background-color: cornflowerblue;
+}
+
+.fifth_col {
+    background-color: darkgoldenrod;
+}
+ 	

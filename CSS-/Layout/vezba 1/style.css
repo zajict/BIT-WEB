@@ -1,0 +1,31 @@
+#first-img {
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left:100px;
+    margin-bottom: 40px;
+}
+
+#second-img {
+    width: 200px;
+    height: auto;
+    position:absolute;
+    right: 10px;
+    top: 15px;
+    margin-top: 20px;
+
+}
+
+#third-img {
+    width: 200px;
+    height: auto;
+    position:absolute;
+    bottom:0px;
+}
+
+#menu-bar {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

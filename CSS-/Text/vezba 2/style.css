@@ -1,0 +1,11 @@
+
+#first-paragraph {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#second-paragraph {
+    text-transform: lowercase;
+    text-decoration:line-through;
+}
+

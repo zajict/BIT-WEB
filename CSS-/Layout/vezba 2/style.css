@@ -1,0 +1,75 @@
+
+#first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-square {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#second-square {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+}
+
+#third-square {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#second-square {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#fourth-square {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#fifth-square {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+}
+
+#sixth-square {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#third-square {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+#seventh-square {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#eighth-square {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+}
+
+#ninth-square {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+}

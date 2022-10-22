@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+</head>
+<body>
+    <form action="./server.html" method="get">
+        <label>Unesite username</label>
+        <input type="text" name="username" placeholder="Username"/>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password"/>
+
+        <a href="./reset.html">Reset password</a>
+    </form>
+    <br/>
+    <br/>
+     <br/>
+    <br/>
+    <form action="./server.html" method="get">
+
+        <p>Prvo Pitanje: Koji je danas dan?</p>
+
+        <input type="radio" name="opcija" value="sreda"/>
+        Danas je sreda
+        <br>
+        <input type="radio" name="opcija" value="ponedeljak"/>Danas je ponedeljak
+        <br>
+        <input type="radio" name="opcija" value="subota"/>Danas je subota
+        <br>
+        <br>
+        <br>
+        <p>Drugo pitanje: Sta volis da jedes?</p>
+
+        <input type="checkbox" name="drugoPit" value="spagete"/> Spagete
+        <br>
+        <input type="checkbox" name="drugoPit" value="pasulj"/> Pasulj
+        <br>
+        <input type="checkbox" name="drugoPit" value="kolace"/> kolace
+        <br>
+        <input type="checkbox" name="drugoPit" value="cufte"/> Cufte
+        <br>
+        <br>
+        <br>
+        <p>Napisite jedan recept: </p>
+        <textarea name="textarea" cols="30" rows="10" placeholder="Add some text"></textarea>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <form action="./server.html" method="get">
+        <label>Datum rodjenja</label>
+        <label>Dan</label>
+        <select name="date">
+            <option value="dan1">1</option>
+            <option value="dan2">2</option>
+            <option value="dan3">3</option>
+            <option value="dan4">4</option>
+            <option value="dan5">5</option>
+            <option value="dan6">6</option>
+            <option value="dan7">7</option>
+            <option value="dan8">8</option>
+            <option value="dan9">9</option>
+            <option value="dan10">10</option>
+        </select>
+
+        <label>Mesec</label>
+        <select name="mont">
+            <option value="mesec1">Januar</option>
+            <option value="mesec2">Februar</option>
+            <option value="mesec3">Mart</option>
+            <option value="mesec4">April</option>
+            <option value="mesec5">Maj</option>
+            <option value="mesec6">Jun</option>
+            <option value="mesec7">Jul</option>
+            <option value="mesec8">Avgust</option>
+            <option value="mesec9">Septembar</option>
+            <option value="mesec10">Oktobar</option>
+        </select>
+
+        <label>Godina</label>
+        <select name="mont">
+            <option value="god1">2001</option>
+            <option value="god2">2000</option>
+            <option value="god3">1999</option>
+            <option value="god4">1998</option>
+            <option value="god5">1997</option>
+            <option value="god6">1996</option>
+            <option value="god7">1995</option>
+            <option value="god8">1994</option>
+            <option value="god9">1993</option>
+            <option value="god10">1992</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Omiljeno voce</label>
+        <select name="select" multiple>
+            <option value="jabuke">Jabuke</option>
+            <option value="kruske">kruske</option>
+            <option value="tresnje">tresnje</option>
+            <option value="breskve">breskve</option>
+        </form>
+
+</body>
+</html>
