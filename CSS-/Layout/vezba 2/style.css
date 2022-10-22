@@ -28,28 +28,32 @@
     display: flex;
     flex-direction: column;
     position: relative;
-   
-
 }
 
 #fourth-box {
     background-color: blue;
     width: 200px;
     height: 200px;
-    position:absolute;
-    top:10px;
+    position:relative;
+    top:30px;
 }
 
 #fifth-box {
     background-color: cyan;
     width: 200px;
     height: 200px;
+    position:relative;
+    left: 100px;
+    bottom: 70px;
 }
 
 #sixth-box {
     background-color: darkblue;
     width: 200px;
     height: 200px;
+    position:relative;
+    left: 200px;
+    bottom: 160px;
 }
 
 
