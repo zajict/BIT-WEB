@@ -52,7 +52,7 @@
     background-color: darkblue;
     width: 200px;
     height: 200px;
-    position:relative;
+    position: relative;
     left: 200px;
     bottom: 160px;
 }
@@ -61,25 +61,32 @@
 
 
 #third-section {
-    position: absolute;
     display: flex;
     flex-direction: column;
+    position: relative;
+    /* position: absolute; */
 }
 
 #seventh-box {
     background-color: blue;
     width: 200px;
     height: 200px;
+   
+
 }
 
 #eighth-box {
     background-color: cyan;
     width: 200px;
     height: 200px;
+    
+  
+
 }
 
 #ninth-box {
     background-color: darkblue;
     width: 200px;
     height: 200px;
+ 
 }
