@@ -45,6 +45,8 @@ img {
 
 #blog-title-box {
     background-color: rgb(236, 168, 30);
+    width: 350px;
+    height: 300px;
 }
 
 #box-color-yellow {
