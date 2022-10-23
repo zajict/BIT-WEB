@@ -25,9 +25,6 @@ img {
     width: 960px;
 }
 
-/* .grid-item {
-    width: 32%;
-} */
 
 #grid-container {
     display: grid;
@@ -40,8 +37,11 @@ img {
     margin: 10px;
 }
 
-p {
-    margin: 10px
+.grid-text {
+    margin: 10px;
+    line-height: 26px;
+    font-size: 19px;
+
 }
 
 #box-color-red{
@@ -53,12 +53,12 @@ p {
 }
 
 #blog-title-box {
-    background-color: rgb(236, 168, 30);
+    background-color: rgb(245, 180, 15);
     width: 300px;
-    height: 270px;
+    height: 342px;
     margin-left: 20px;
     padding-top: 20px;
-    padding: 30px 12px 12px;
+    padding: 10px;
     box-sizing: border-box;
     
 }
@@ -74,7 +74,7 @@ p {
 
 h3 {
    font-size: 35px;
-   color: aliceblue;
+   color: rgb(255, 255, 255);
    padding: 25%;
 }
 
@@ -86,5 +86,17 @@ h3 {
 }
 
 .box-p {
-    font-size: 18px;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+header {
+    background-color:rgb(36, 53, 66);
+    height: 50px;
+}
+
+h4 {
+    color: white;
+    margin: 290px;
+    padding-top: 15px;
 }
