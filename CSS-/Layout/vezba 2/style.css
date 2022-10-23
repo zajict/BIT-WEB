@@ -53,6 +53,7 @@
     position: relative;
     left: 200px;
     bottom: 200px;
+    z-index: -1;
 }
 
 /* third section -  */
@@ -70,6 +71,7 @@
     height: 200px;
     position:absolute;
     right:0px;
+    z-index: 1;
 }
 
 #eighth-box {
@@ -89,4 +91,5 @@
     position:absolute;
     right:200px;
     top: 200px;
+    z-index: -1;
 }
