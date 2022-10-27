@@ -1,0 +1,50 @@
+body {
+    width: 50% ;
+    margin: auto;
+    opacity: 0.8;
+}
+
+#container {
+    width: 800px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url(./images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-028.jpg);
+    background-size: cover;
+    position: fixed;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: rgb(125, 160, 185); 
+    text-align: center; 
+}
+
+h2 {
+   
+    font-size: 25px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: rgb(59, 93, 107);
+}
+
+p {
+    font-size: 22px;
+    text-align: left;
+    color: #83810f;
+}
+
+#main-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#home {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #355F6F;
+}

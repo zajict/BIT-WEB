@@ -1,0 +1,30 @@
+ table {
+    width: 100%;
+    height: 100%;
+ }
+ 
+ img {
+    display:block;
+    margin-bottom: 40px;
+ }
+
+#images1 {
+    height: 200px;
+    float: right; 
+}
+
+#images2 {
+    width: 200px;
+    margin-left: 40%;
+}
+
+#images3 {
+    height: 200px;
+    width: 200px;
+    float:left; 
+}
+
+
+
+
+
