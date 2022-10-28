@@ -1,0 +1,122 @@
+#one-page-content {
+    width: 63.2%;
+    height: 80%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#nav-bar {
+    background-color: rgb(177, 53, 53);
+    width: 960px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+li, .nav-link {
+    display: inline;
+    color: rgb(255, 255, 255);
+    float:right;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+img {
+    height: 560px;
+    width: 960px;
+}
+
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-box {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.grid-text {
+    margin: 10px;
+    line-height: 26px;
+    font-size: 17px;
+}
+
+h3 {
+   font-size: 33px;
+   color: rgb(255, 255, 255);
+   padding: 25%;
+}
+
+#box-color-red{
+    background-color: rgb(191, 43, 43);
+}
+#box-color-red2{
+    background-color: rgb(191, 43, 43);
+}
+
+#box-color-darkblue {
+    background-color: rgb(36, 53, 66);
+}
+
+#box-color-darkblue2 {
+    background-color: rgb(36, 53, 66);
+}
+
+#box-color-yellow {
+    background-color: rgb(255, 204, 0);
+}
+
+#box-color-yellow2 {
+    background-color: rgb(255, 204, 0);
+}
+
+#box-color-green {
+    background-color: rgb(61, 181, 73);
+}
+
+#box-color-green2 {
+    background-color: rgb(61, 181, 73);
+}
+
+
+
+
+#blog-title-box {
+    background-color: rgb(245, 180, 15);
+    width: 300px;
+    height: 280px;
+    margin-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.link-box {
+    padding: 7px 20px;
+}
+
+.link {
+    font-size: 21px;
+    color:black;
+    text-decoration: none;
+}
+
+.line {
+    height: 0.3px;
+    background-color: rgb(49, 48, 48);
+     margin-top: 10px;
+}
+
+
+footer {
+    background-color:rgb(36, 53, 66);
+    height: 50px;
+}
+
+h4 {
+    color: white;
+    margin: 275px;
+    padding-top: 15px;
+}
