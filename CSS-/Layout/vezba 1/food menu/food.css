@@ -1,6 +1,3 @@
-body {
-    background-color: rgb(237, 235, 233);
-}
 
 nav {
     width: 70%;
@@ -8,8 +5,7 @@ nav {
     margin: 0 auto;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: rgb(255, 191, 0);
-    
+    background-color: rgb(255, 191, 0); 
 }
 
 .dropdown {
@@ -96,3 +92,41 @@ a {
 .dropdown:hover .dropdown-button {
     background-color: rgb(233, 233, 219);
 }
+
+
+.container {
+    margin-top: 150px;
+    position: relative;
+}
+
+#bcg-images {
+    width: 20%;
+    height:auto;
+    position: absolute;
+    top: 40%;
+    left: 15%;   
+    margin-top: 30px; 
+}
+
+h2 {
+    position: absolute;
+    right: 30%;
+    margin-top: 7%;
+}
+
+#pagraph {
+    width: 35%;
+    position: absolute;
+    top: 100px;
+    right: 20%;
+    margin-top: 55px;
+}
+
+p {
+    text-align: center;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+
+
