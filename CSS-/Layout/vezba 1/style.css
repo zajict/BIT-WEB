@@ -65,8 +65,8 @@ h1 {
     padding: 5px;
 }
 
-#home-link:hover{
-    background-color: rgb(25, 76, 22);  
+#new-page-link:hover{
+    background-color: rgb(46, 115, 43);  
     color:rgb(225, 225, 225);
     text-transform: uppercase;
 }
