@@ -1,10 +1,21 @@
+
+.container {
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(198, 38, 38);
+    margin-top: 70px;
+    margin-bottom: 50px;   
+}
+
 #first-img {
     width: 200px;
-    height: auto;
-    position: relative;
-    top: 50px;
-    left:100px;
-    margin-bottom: 40px;
+    height: auto; 
+    margin-top: 60px;
 }
 
 #second-img {
@@ -12,20 +23,48 @@
     height: auto;
     position:absolute;
     right: 10px;
-    top: 15px;
-    margin-top: 20px;
-
+    top: 10px;
 }
 
 #third-img {
     width: 200px;
     height: auto;
     position:absolute;
-    bottom:0px;
+    bottom: 0px;
 }
 
-#menu-bar {
+#home-link {
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 15px;
+    right: 15px;
+    width: 45px;
+}
+
+#food-link {
+    width: 15%;
+    height: 20px;
+    margin-left: 34%;
+    padding: 5px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 15%;
+    background-color: rgb(77, 126, 39);
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: rgb(25, 76, 22);  
+    color:rgb(225, 225, 225);
+    text-transform: uppercase;
 }

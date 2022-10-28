@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(237, 235, 233);
+}
+
+nav {
+    width: 70%;
+    height: 48px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 191, 0);
+    
+}
+
+.dropdown {
+    display: inline;
+}
+
+.dropdown-button {
+    padding: 10px;
+    padding-right: 25px;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+    background-color: rgb(255, 191, 0);
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.dropdown-button:hover {
+    background-color: rgb(232, 232, 230);
+}
+
+.dropdown-links {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+}
+
+.dropdown-links a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    padding-left: 30px
+}
+
+.dropdown-links a:hover {
+    background-color: rgb(232, 232, 230);
+}
+
+#home {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#home:hover {
+    background-color:rgb(232, 232, 230) ;
+}
+
+#menu1 {
+    position: relative;
+}
+
+#drop1 {
+    position: absolute;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+#menu2 {
+    position: relative;
+}
+#drop2 {
+    position: absolute;
+    left: 0px;
+}
+
+#menu3 {
+    position: relative;
+}
+
+#drop3 {
+    position: absolute;
+    left: 0px;
+}
+
+a {
+    color:black;
+}
+
+.dropdown:hover .dropdown-links {
+    display: block;
+}
+
+.dropdown:hover .dropdown-button {
+    background-color: rgb(233, 233, 219);
+}
