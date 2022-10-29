@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: thick solid rgb(242, 242, 116);
+    display: grid;
+    gap: 20px;
+    background-color: blue;
+
+    grid-template-columns: 200px 1fr 200px ;
+    grid-template-rows: 200px;
+
+    min-height: 90vh;
+}
+
+.item {
+    border: thick solid rgb(242, 242, 116);
+}
+.item1 {
+    background: lightblue;
+    grid-column: 1 / -1;
+}
+
+.item2 {
+    background: rgb(183, 71, 71);
+}
+
+.item3 {
+    background: green;
+}
+
+.item4 {
+    background: rgb(183, 71, 71);
+    grid-column:  / -1; 
+}
+
+.item5 {
+    background: orange;
+    grid-column: 1 / -1;
+}
