@@ -7,6 +7,19 @@
 }
 
 
+@font-face {
+    font-family: Roboto;
+    src: url(./Fonts/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(./Fonts/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoLight;
+    src: url(./Fonts/fonts/Roboto-Light.ttf);
+}
+
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -16,6 +29,7 @@ header {
     background-image: url(./Images/images/banner3.jpg);
     background-repeat: no-repeat;
     height: 750px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -40,6 +54,7 @@ a {
 
 .navbar-list {
     margin: 15px;
+    font-family:  RobotoB, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo {
@@ -64,11 +79,12 @@ h1 {
     margin-top: 15%;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: RobotoB, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .read-me {
     position: absolute;
-    top: 63%;
+    top: 65%;
     left: 47%;
     background-color: rgb(65, 131, 196);
     height: 35px;
@@ -76,6 +92,7 @@ h1 {
     border-radius: 50px;
     border: none;
     color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -126,6 +143,7 @@ h2 {
 .items {
    display: flex;
    justify-content: center;
+   font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -151,6 +169,8 @@ h2 {
 .bold-paragraph {
     font-size: 17px;
     margin-bottom: 15px;
+    font-family: RobotoB;
+    opacity: 0.7;
 }
 
 .li-with-arrow {
@@ -177,13 +197,15 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px
+    gap: 60px;
+    font-family: Roboto;
     
 }
 
 h4 {
     color: black;
     font-size: 15px;
+    font-family: RobotoB;
    
 }
 
