@@ -137,7 +137,8 @@ h1 {
 h2 {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 33px;
+    font-family: Roboto;
 }
 
 .items {
@@ -198,7 +199,6 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 60px;
-    font-family: Roboto;
     
 }
 
@@ -237,7 +237,7 @@ h4 {
 
 .grid-row2 {
     padding-right: 50px;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 14px;
 }
 
@@ -253,10 +253,80 @@ h4 {
 }
 
 
+
+.squares{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Roboto ;
+}
+
+.square {
+    width: 25%;
+    height: 200px;
+    text-align: center;
+}
+
+#house-images {
+    height: 190px;
+    padding-left: 60px
+}
+
+#contact-number {
+    padding-bottom: 10px;
+    padding-top: 13px;
+}
+
+.contact-subtitle {
+    font-size: 20px;
+}
+
+.square-1 {
+    background-color: rgb(59, 221, 154);
+}
+
+.square-2 {
+    background-color:#FF4C81;
+}
+
+.square-3 {
+    background-color: rgb(55, 109, 228);
+}
+
+.square-4 {
+    background-color: #82C3F5 ;
+}
+
+.contact-subtitle {
+    color: white;
+    margin-top: 18%;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+#white-paragraph {
+    color: white;
+    line-height: 30px;
+}
+
+#Street-address {
+    margin-right: 35px;
+    margin-left: 35px
+}
+
+.square-icon {
+    padding-left: 20px;
+}
+
+
+
 .form {
     width: 80%;
     margin:0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
@@ -267,6 +337,10 @@ form{
     justify-content: center;
     align-items: center;
     gap: 15px; 
+}
+
+#maps {
+    margin-bottom: 50px;
 }
 
 .input-box {
@@ -290,7 +364,6 @@ textarea {
     background-color: orange;
     border-style: none;
     color: white
-
 }
 
 
