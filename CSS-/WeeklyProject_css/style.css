@@ -71,21 +71,24 @@ a {
     margin-right: 10px; 
 }
 
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
 
 h1 {
     color: white;
     font-size: 50px;
     text-align: center;
-    margin-top: 15%;
     padding-left: 50px;
     padding-right: 50px;
     font-family: RobotoB, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .read-me {
-    position: absolute;
-    top: 65%;
-    left: 47%;
     background-color: rgb(65, 131, 196);
     height: 35px;
     width: 100px;
@@ -94,7 +97,6 @@ h1 {
     color: white;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 
 
 
@@ -396,4 +398,143 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* ●	Desktop - 1200px  Responsive layout  */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    header {
+    background-image: url(./Images/images/banner4.png);
+    height: 600px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    form {
+        width: 100%;
+        margin-left: 20px
+    }
+
+    .grid-row2 {
+        line-height: normal;
+        letter-spacing: -1px;
+        font-size: 18px;
+    }
+
+    #who-we-are {
+        width: 90%;
+        margin-bottom: 120px;
+    }
+    
+    #item-image {
+        width: 280px;
+    }
+    
+    .item {
+        margin-left: 20px
+    }
+
+    .main-heading {
+        margin-top: 15%;
+    }
+
+    .second-section-subtitle {
+        font-size: 19px;
+    }
+
+    .bold-paragraph {
+        font-size: 16px;
+    }
+
+    .box {
+        padding: 25px;
+    }
+}
+
+
+/* ●	Tablet - 768px  Responsive layout  */
+
+@media (max-width: 768px) {
+    header {
+        background-image: url(./Images/images/banner5.png);
+        margin-bottom: 20px;
+        height: 490px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+    .main-heading {
+        margin-top: 12%;
+    }
+    .read-me {
+        width: 160px;
+        height: 42px;
+        font-size: 17px;
+    }
+    .nav-li {
+        padding:10px;
+    }
+    .nav {
+        margin-top: 15px;
+    }
+    #who-we-are {
+        margin-top: 20px;
+        width: 85%;
+    }
+
+    h2 {
+    font-size: 37px;
+    }
+    .break-line {
+        width: 100px;
+   }
+    .break-square {
+        width: 20px;
+        height: 20px;
+    }
+    .break-lines {
+        margin-bottom: 20px
+    }
+
+    .items {
+        display: grid;
+        grid-template-rows: 370px 300px;
+        grid-template-columns: 50% 50%;
+    }
+    .item {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .item1 {
+        width: 100%;
+    }
+
+    .second-section-subtitle {
+        padding: 0px;
+        font-size: 23px;
+    }
+    .bold-paragraph {
+        font-size: 15px;
+    }
+
+    .item3 {
+        
+    }
+    #item-image {
+        height: 360px;
+        width: auto;
+    }
+
 }
