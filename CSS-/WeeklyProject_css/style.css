@@ -509,8 +509,8 @@ footer {
 
     .items {
         display: grid;
-        grid-template-rows: 370px 300px;
-        grid-template-columns: 50% 50%;
+        grid-template-rows: 370px 240px ;
+        grid-template-columns: 50% 50% ;
     }
     .item {
         width: 100%;
@@ -518,7 +518,7 @@ footer {
         padding: 0px;
     }
     .item1 {
-        width: 100%;
+        padding-right: 20px;
     }
 
     .second-section-subtitle {
@@ -527,14 +527,83 @@ footer {
     }
     .bold-paragraph {
         font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .li-with-arrow {
+        font-size: 14px;
     }
 
     .item3 {
-        
+    grid-column-start: 1;
+    grid-column-end: span 2;
     }
+
     #item-image {
         height: 360px;
         width: auto;
     }
 
+    #what-people-says {
+        width: 70%;
+    }
+
+    .boxs {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 220px 220px;
+        gap: 25px;        
+    }
+
+    .box {
+        height: 220px;
+        padding: 15px;
+    }  
+    .box-images {
+        width: 70px;
+        height: 70px
+    }
+    .box-paragraph {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    h4 {
+        font-size: 14px;
+    }
+
+    #get-in-touch {
+    }
+
+    #house-images {
+        width: 190px;
+        height: auto;
+        padding: 0px;
+    }
+    .squares {
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-template-rows: 200px 200px;
+    }
+
+    .square {
+        width: 100%;
+    }
+    .contact-subtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center0;
+    }
+    .input-box {
+        width: 32.8%;
+    }
+    textarea {
+        margin-bottom: 5px;
+    }
+    #footer-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 }
