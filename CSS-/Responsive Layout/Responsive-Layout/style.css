@@ -12,9 +12,16 @@ ul li {
     display: inline;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
+#navigation-header-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+ #header-image {
+    height: 460px;
+    width: 67vw;
+    border: 2px solid white;
+    margin-bottom: 3rem;
 }
 
 h2 {
@@ -37,23 +44,10 @@ a:hover {
     padding: 10px;    
 }
 
-
-#header {
-    border: 2px solid white;
-    margin-bottom: 3rem;
-}
-
-#header-image {
-    height: 50%;
-    width: 94%;
-    padding: 30px;
-}
-
 .image {
     height: 12.5rem;
     width:auto;
 }
-
 
 .image-item {
     display: inline-block;
@@ -62,6 +56,7 @@ a:hover {
 #gallery {
     display: flex;
     gap: 30px;
+    margin-right: 10%;
 }
 
 p {
@@ -71,12 +66,19 @@ p {
 @media (max-width : 800px) {
     
 #header-image {
-    width: 92%;
+    width: 78vw;
+    
 }
 
 main {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
+    margin-left: 10%;
+}
+
+#navigation-header-section {
+    display: grid;
+    grid-template-columns: 48% 39%;
 }
 
 #gallery {
@@ -85,6 +87,7 @@ main {
     justify-content: center;
     flex-direction: column;
     gap: 5px;
+    
 }
 
 
@@ -94,6 +97,7 @@ main {
     border: 1px solid lightslategray;
     padding: 10px;
     margin-bottom: 30px;
+    margin-right: 11%;
 }
 p {
     text-align: center;
@@ -102,22 +106,18 @@ p {
     justify-content: center;
 }
 
-#header {
-   border: 1px solid lightslategray;
-}
-
 }
 
 @media (max-width: 500px) {
     #header-image {
     height: 50%;
-    width: 96%;
+    width: 90%;
     padding: 10px;
 }
 
 #navigation-header-section {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 88%;
     grid-template-rows: auto auto auto;
 }
 
@@ -153,6 +153,10 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#gallery {
+    margin-left: 5%;
 }
 
 .image-item {
