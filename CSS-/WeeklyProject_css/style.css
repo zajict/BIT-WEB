@@ -701,14 +701,49 @@ h2 {
 .boxs {
     display: flex;
     flex-direction: column;
+    gap: 0px;
     margin-bottom: 70px;
 }
 .box-paragraph {
     line-height: 30px;
 }
 
+.gmap_iframe {
+    height: 380px;
+    margin-bottom: 50px;
+}
 
+.form {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+form{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    gap: 20px; 
+}
 
+.input-box {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    padding: 20px;
+}
 
 }
