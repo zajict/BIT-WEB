@@ -25,6 +25,7 @@
     margin: 0 auto;
 }
 
+
 header {
     background-image: url(./Images/images/banner3.jpg);
     background-repeat: no-repeat;
@@ -546,7 +547,7 @@ footer {
     }
 
     #what-people-says {
-        width: 70%;
+        width: 75%;
     }
 
     .boxs {
@@ -565,15 +566,12 @@ footer {
         height: 70px
     }
     .box-paragraph {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 22px;
     }
     
     h4 {
-        font-size: 14px;
-    }
-
-    #get-in-touch {
+        font-size: 17px;
     }
 
     #house-images {
@@ -606,4 +604,111 @@ footer {
         justify-content: center;
         gap: 20px;
     }
+}
+
+
+
+
+/* ●	Mobile - 500px  Responsive layout  */
+
+@media (max-width: 500px) {
+    .menu {
+        background-color: white;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    .logo {
+        color: black;
+        font-size: 24px;
+        width: 100%;
+        font-family: RobotoB;
+        display: flex;
+        justify-content: center;
+        opacity: 0.7;
+    }
+
+    .logo > span {
+    color: orange;
+    border: black solid 3px; 
+    border-right: transparent;
+}
+
+.navbar-list {
+    background-color: #82C3F5;
+    height: 140px;
+    width: 75vw;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-li > a {
+    font-size: 13px;
+}
+
+.main-heading {
+    height: 300px;
+    width: 100%;
+    background-image: url(./Images/images/banner7.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.read-me {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+}
+
+#who-we-are {
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: Roboto;
+}
+
+.break-lines {
+    width: 100px;
+    margin: 0 auto;
+}
+.break-square {
+    width: 30px;
+    height: 14px;
+    margin: 5px;    
+}
+
+.items {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.box-paragraph {
+    line-height: 30px;
+}
+
+
+
+
+
 }
