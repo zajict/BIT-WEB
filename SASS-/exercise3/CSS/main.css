@@ -1,0 +1,13 @@
+.first-paragraph, .second-paragraph, .third-paragraph {
+  border: 2px double red;
+  width: 900px; }
+
+.second-paragraph {
+  border-color: blue;
+  width: 750px; }
+
+.third-paragraph {
+  border-color: green;
+  width: 42.5%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.first-paragraph {
+    border: 2px double red;
+    width: 800px + 100px;
+}
+
+.second-paragraph {
+    @extend .first-paragraph;
+    border-color: blue;
+    width: 800px - 50px;
+}
+
+.third-paragraph {
+    @extend .first-paragraph;
+    border-color: green;
+    width: 500px / 200px * 17%;
+}
+
