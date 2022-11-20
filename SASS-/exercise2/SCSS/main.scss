@@ -1,18 +1,11 @@
-body {
-    background: black;
-}
 
 .container {
-    background: white;
-    width: 65%;
     margin: 0 auto;
-    border: black double 6px;
 
     header {
         padding-top: 40px;
 
         .main-title {
-            border-bottom: 1px black solid;
             text-align: center;
             font-size: 26px;
             padding-bottom: 10px;
@@ -31,27 +24,16 @@ body {
 
     .tables-content {
 
-        #podaci-o-građaninu {
-            border-top:3px black double;
-        }
-
         .subtitle-section {
             margin-left: 10%;
         }
-    
 
         .subtitle {
             letter-spacing: 1px;
-            border-left: 27px solid rgb(70, 125, 65);
-            border-bottom: 2px solid rgb(70, 125, 65);
-            width: 33%;
             padding: 20px;
         }
 
         .table {
-            border: 3px solid rgb(169, 51, 51);
-            border-right: 10px solid rgb(169, 51, 51);
-            border-left: transparent;
             padding-left: 30px;
         } 
 
@@ -60,13 +42,12 @@ body {
             padding-bottom: 30px;
 
             td {
-                border-bottom:rgb(70, 125, 65) solid 1px;
                 padding-bottom: 10px;
-                padding-right: 80px;
+                padding-right: 8%;
             }
 
             .td1 {
-                padding-right: 100px;
+                padding-right: 10%;
                 color:rgb(124, 29, 29);
                 font-weight: bold;
                 font-size: 18px;
@@ -88,7 +69,6 @@ body {
         padding: 30px;
 
         .paragraph  {
-            border-bottom:rgb(70, 125, 65) solid 2px;
             padding: 20px 30px 10px; 
             padding-bottom: 10px;
             padding-top: 20px;

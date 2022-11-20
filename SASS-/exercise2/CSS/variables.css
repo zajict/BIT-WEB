@@ -1,3 +1,26 @@
+@charset "UTF-8";
+body {
+  background: black; }
 
+.container {
+  background: white;
+  width: 65%;
+  border: black double 6px; }
+  .container .main-title {
+    border-bottom: 1px black solid; }
+  .container #podaci-o-građaninu {
+    border-top: 3px black double; }
+  .container .subtitle {
+    border-left: 27px solid #467d41;
+    border-bottom: 2px solid #467d41;
+    width: 33%; }
+  .container .table {
+    border: 3px solid #a93333;
+    border-right: 10px solid #a93333;
+    border-left: transparent; }
+  .container td {
+    border-bottom: #467d41 solid 1px; }
+  .container .paragraph {
+    border-bottom: #467d41 solid 2px; }
 
 /*# sourceMappingURL=variables.css.map */

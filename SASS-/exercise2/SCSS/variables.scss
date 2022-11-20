@@ -1,0 +1,49 @@
+// colors
+// width
+
+$outside-background: black;
+$inside-background: white;
+$border-color: black;
+$top-border-table-rows: rgb(70, 125, 65);
+$table-border-color: rgb(169, 51, 51);
+$container-width: 65%;
+$subtitle-width: 33%;
+
+body {
+    background: $outside-background;
+}
+
+.container {
+    background: $inside-background;
+    width: $container-width;
+    border: $border-color double 6px;
+
+    .main-title {
+        border-bottom: 1px $border-color solid;
+    }
+
+    #podaci-o-građaninu {
+        border-top:3px $border-color double;
+    }
+
+    .subtitle {
+        border-left: 27px solid $top-border-table-rows;
+        border-bottom: 2px solid $top-border-table-rows;
+        width: $subtitle-width;
+    }
+
+    .table {
+        border: 3px solid $table-border-color;
+        border-right: 10px solid $table-border-color;
+        border-left: transparent;
+    }
+
+    td {
+        border-bottom: $top-border-table-rows solid 1px;
+    }
+
+     .paragraph {
+        border-bottom:$top-border-table-rows solid 2px;
+     }
+}
+
