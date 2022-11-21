@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+  margin-top: 40px; }
+  body .main-section {
+    width: 90%;
+    background-color: #c2a530;
+    margin: 0 auto;
+    border-radius: 30px; }
+    body .main-section .hero-section {
+      width: 90%;
+      margin: auto;
+      background-color: #c2a530;
+      border-radius: 30px;
+      padding-top: 50px; }
+    body .main-section .logo-section {
+      display: flex;
+      justify-content: space-between;
+      background-color: black;
+      border-radius: 30px 30px 0px 0px; }
+    body .main-section form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 50px; }
+    body .main-section .search-input {
+      height: 35px;
+      width: 15rem;
+      border-radius: 15px; }
+    body .main-section .search-input::placeholder {
+      padding-left: 10px; }
+    body .main-section .logo {
+      padding-left: 80px; }
+    body .main-section nav {
+      height: 50px;
+      background: #5d5959;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .main-section nav .nav-list {
+        display: inline; }
+        body .main-section nav .nav-list .nav-li {
+          display: inline; }
+        body .main-section nav .nav-list .nav-link {
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          margin-right: 7rem;
+          width: 100px; }
+        body .main-section nav .nav-list .nav-link:active {
+          background: #c2a530;
+          color: black; }
+        body .main-section nav .nav-list .nav-link:visited {
+          background: orange; }
+        body .main-section nav .nav-list .nav-link:link {
+          background: green; }
+        body .main-section nav .nav-list .important {
+          font-weight: bold; }
+    body .main-section .inside-hero-section {
+      padding-bottom: 50px; }
+  body .second-section {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: rgba(128, 128, 128, 0.167);
+    padding: 80px; }
+    body .second-section .first-subtitle {
+      font-size: 30px; }
+    body .second-section .second-subtitle {
+      font-size: 25px;
+      font-weight: lighter; }
+    body .second-section .paragraph1::first-letter {
+      font-size: 50px; }
+    body .second-section .paragraph1 {
+      font-size: 16px; }
+    body .second-section .paragraph2 {
+      font-size: 18px; }
+    body .second-section .paragraph3 {
+      font-size: 20px; }
+    body .second-section .paragraph4 {
+      font-size: 22px; }
+
+/*# sourceMappingURL=main.css.map */
