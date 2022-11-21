@@ -1,0 +1,37 @@
+// ●	Create mixins for text shadow
+// ●	Create mixins for box shadow
+// ●	Create a page with multiple elements
+// ●	Use the mixin for text shadow on one element
+// ●	For some other element, use the mixin for box shadow
+
+@mixin box-shadow {
+    -webkit-box-shadow: 0px 13px 44px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 44px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 44px -10px rgba(0,0,0,0.75);
+}
+
+.table {
+    @include box-shadow;
+}
+
+
+
+@mixin text-title-shadow {
+    text-shadow: 5px 5px 2px rgba(228, 246, 227, 0.97);
+}
+
+@mixin text-subtitle-shadow ($shadow: darkgreen) {
+    text-shadow: -2px -4px 6px rgba($shadow, 1);
+}
+
+.main-title {
+    @include text-title-shadow;
+}
+
+.subtitle1 {
+    @include text-subtitle-shadow ($shadow: gray);
+}
+
+.subtitle2 {
+    @include text-subtitle-shadow ($shadow: rgb(89, 152, 107));
+}
