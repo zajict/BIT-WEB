@@ -47,7 +47,7 @@ body {
           margin-right: 7rem;
           width: 100px; }
         body .main-section nav .nav-list .nav-link:active {
-          background: #c2a530;
+          background: yellow;
           color: black; }
         body .main-section nav .nav-list .nav-link:visited {
           background: orange; }

@@ -64,7 +64,7 @@ body {
                     width: 100px;
                 }
                 .nav-link:active {
-                    background: rgb(194, 165, 48);
+                    background:yellow;
                     color:black;
                 }
                 .nav-link:visited {
@@ -93,26 +93,35 @@ body {
         background: rgba(128, 128, 128, 0.167);
         padding: 80px;
 
-            .first-subtitle {
-                font-size: 30px;
-            }
+        .first-subtitle {
+            font-size: 30px;
+        }
 
-            .second-subtitle {
-                font-size: 25px;
-                font-weight:lighter;
-            }
+        .second-subtitle {
+            font-size: 25px;
+            font-weight:lighter;
+        }
 
-            .paragraph1::first-letter {
-                font-size: 50px;
-            }
+        .paragraph1::first-letter {
+            font-size: 50px;
+        }
 
-           @for $i from 1 through 4 {
-                .paragraph#{$i} {
-                    font-size: 14px + ($i * 2) ;
-                } 
-           } 
-    } 
+        @for $i from 1 through 4 {
+            .paragraph#{$i} {
+                font-size: 14px + ($i * 2) ;
+            } 
+        } 
+                
+    }
 
+
+  
 }
 
+  
 
+
+
+    
+
+    
