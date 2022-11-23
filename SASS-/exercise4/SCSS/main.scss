@@ -111,7 +111,32 @@ body {
                 font-size: 14px + ($i * 2) ;
             } 
         } 
-                
+
+        @mixin background ($color) {
+
+            @if $color == 1 {
+                background-color: rgb(212, 212, 212);
+            } @else if $color == 2 {
+                background-color: rgb(154, 154, 154);
+            } @else if $color == 3 {
+                background-color: rgb(251, 241, 187);
+            } @else if $color == 4 {
+                background-color: rgb(180, 184, 125);
+            }
+        }   
+
+        .paragraph1 {
+            @include background(1);
+        } 
+        .paragraph2 {
+            @include background(2);
+        }
+        .paragraph3 {
+            @include background(3);
+        }
+        .paragraph4 {
+            @include background(4);
+        }
     }
 
 

@@ -78,5 +78,13 @@ body {
       font-size: 20px; }
     body .second-section .paragraph4 {
       font-size: 22px; }
+    body .second-section .paragraph1 {
+      background-color: #d4d4d4; }
+    body .second-section .paragraph2 {
+      background-color: #9a9a9a; }
+    body .second-section .paragraph3 {
+      background-color: #fbf1bb; }
+    body .second-section .paragraph4 {
+      background-color: #b4b87d; }
 
 /*# sourceMappingURL=main.css.map */
