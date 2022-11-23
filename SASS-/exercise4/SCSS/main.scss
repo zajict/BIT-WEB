@@ -140,13 +140,41 @@ body {
     }
 
 
-  
+    table, tr, td {
+        border: 2px double rgb(251, 253, 204);
+    }
+
+    @function table($width, $columns) {
+        $size: $width / $columns;
+        @return $size;
+    }
+
+    td {
+        width: table(200px, 2);
+        height: table(200px, 2);
+    }
+
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+       footer {
+        background: black;
+        margin-top: 100px;
+        color: white;
+        padding: 20px;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+
+        .footer-p {
+            font-size: 18px;
+        }
+    }
+
+
 }
-
-  
-
-
-
-    
-
-    

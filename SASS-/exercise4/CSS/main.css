@@ -86,5 +86,25 @@ body {
       background-color: #fbf1bb; }
     body .second-section .paragraph4 {
       background-color: #b4b87d; }
+  body table, body tr, body td {
+    border: 2px double #fbfdcc; }
+  body td {
+    width: 100px;
+    height: 100px; }
+  body .third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  body footer {
+    background: black;
+    margin-top: 100px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body footer .footer-p {
+      font-size: 18px; }
 
 /*# sourceMappingURL=main.css.map */
