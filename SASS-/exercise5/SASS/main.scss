@@ -1,0 +1,26 @@
+
+/* ●	Create a function that translates content-box width to border-box width of the element
+●	Create a page with two equal-sized paragraphs: dimensions of the first one should be given using content-box size, and the second one using border-box size. To achieve this, use the function written above */ 
+
+@function box($box-sizing) {
+    $width: 35%;
+    $padding: 1rem;
+    $margin: 1rem;
+    $border: 4px double black;
+
+    @if (p:first-of-type) {
+        $box-sizing: $width - ($padding + $margin + $border); 
+    } @else if (p:last-of-type) {
+        $box-sizing: width;
+    }
+    @return $box-sizing;
+}
+p {
+    width: 35%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 4px double black;
+}
+
+
+
