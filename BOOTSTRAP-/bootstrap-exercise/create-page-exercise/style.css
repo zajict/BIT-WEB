@@ -1,0 +1,14 @@
+/* Create page using Bootstrap 
+Use project created previously and redo it using Bootstrap.
+When you are done with the task above, instead of the one picture, implement a carousel that will slide multiple images.
+ */
+#one-page-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-bar {
+    background-color: rgb(194, 55, 55);
+}
+.nav-bar ul li a {
+    color: white;
+}
