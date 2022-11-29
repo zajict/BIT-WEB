@@ -3,12 +3,51 @@ Use project created previously and redo it using Bootstrap.
 When you are done with the task above, instead of the one picture, implement a carousel that will slide multiple images.
  */
 #one-page-content {
-    width: 80%;
+    width: 62%;
     margin: 0 auto;
+
 }
 .nav-bar {
     background-color: rgb(194, 55, 55);
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 .nav-bar ul li a {
     color: white;
+}
+.carousel {
+    margin-bottom: 30px;
+}
+.box-container {
+    margin-left: -10px;
+}
+.link-list-box {
+    margin-left: 23px;
+    margin-right: -80px;
+}
+.link-list-box a {
+    line-height: 35px;
+}
+
+.list-group-item{
+    border: none !important;
+     background-color: #F5B40F;
+}
+.list-group .list-group-item a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 10rem;
+}
+.footer-text {
+    padding-left: 17rem;
 }
