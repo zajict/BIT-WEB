@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.row1-navbar .menu-text {
+  background: #18bc9c; }
+
+.row2-hero-section {
+  background: #18bc9c; }
+  .row2-hero-section .box-line {
+    border-color: white; }
+  .row2-hero-section .profile-box {
+    padding-top: 60px; }
+
+.break-lines {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px; }
+
+.break-line {
+  height: 2px;
+  width: 134px;
+  border-top: 4px solid #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.star {
+  margin: 0 10px; }
+
+/*# sourceMappingURL=main.css.map */
