@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "Linerama-Bold";
+    src: url("./Linerama\ Bold\ 700.ttf");
+}
+
+body {
+    background-color: #074b5d;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#clock {
+    font-family: "Linerama-Bold", sans-serif;
+    font-size: 8rem;
+    color: #faeedc;
+}

@@ -11,25 +11,35 @@ console.log(first);
 var newHeader = document.createElement('h1');
 newHeader.innerHTML = 'New main title on page';
 document.body.appendChild(newHeader);
-
-var newHeader = document.createElement('h1');
-newHeader.innerHTML = 'This is a new header';
 newHeader.id = 'myHeader';
 newHeader.className = 'header';
 newHeader.style.color = 'red';
 document.body.appendChild(newHeader);
 
 
+var firstSection = document.querySelector('section');
+firstSection.classList.add('first-section');
 
-
-var sections = document.getElementsByTagName('section');
-var section = sections[0];
-
+var firstH = document.querySelector('h1');
+firstH.classList.add('first-titles');
 
 var firstParagraph = document.querySelector('p');
-firstParagraph.classList.add('new-class');
-/*var firstParagraph = document.querySelector('p');
-firstParagraph.className += ' new-class'*/
+firstParagraph.classList.add('first-paragraph');
+
+
+var paragraphs = document.getElementsByTagName('p');
+var secondParagraph = paragraphs[1];
+secondParagraph.classList.add('second-paragraph');
+
+// var secondParagraph = document.querySelector('p:nth-of-type(2)');
+// secondParagraph.classList.add('second-paragraph');
+
+var sections = document.getElementsByTagName('section');
+var secondSection = sections[1];
+secondSection.classList.add('second-section');
+
+
+
 
 
 
