@@ -1,3 +1,5 @@
+// selecting elements
+
 var element = document.getElementsByTagName('body');
 console.log(element);
 
@@ -37,6 +39,13 @@ secondParagraph.classList.add('second-paragraph');
 var sections = document.getElementsByTagName('section');
 var secondSection = sections[1];
 secondSection.classList.add('second-section');
+
+
+
+var lastParagraph = document.querySelector('p:last-of-type');
+document.getElementById('last-paragraph').textContent = "PARAGRAPH SELECTOR: " + lastParagraph.textContent;
+
+
 
 
 
