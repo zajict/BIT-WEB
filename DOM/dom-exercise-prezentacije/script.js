@@ -42,9 +42,35 @@ secondSection.classList.add('second-section');
 
 
 
+
+
+//Accessing / Updating a Text Node
 var lastParagraph = document.querySelector('p:last-of-type');
 document.getElementById('last-paragraph').textContent = "PARAGRAPH SELECTOR: " + lastParagraph.textContent;
 
+
+
+//toggle, add, remove - BITNO
+
+
+//toggle
+var toggleButton = document.getElementById('toggle-button');
+var elementToToggle = document.getElementById('element-to-toggle');
+
+toggleButton.addEventListener('click', () => {
+    elementToToggle.classList.toggle('hidden');
+});
+
+
+function myFunction() {
+var x = document.getElementById("toggle-hide1");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 
 
 
