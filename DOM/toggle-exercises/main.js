@@ -17,4 +17,14 @@ function swapText() {
 }
 
 
+// toggle class
+function toggleClass() {
+    var x = document.getElementById("toggleClass");
+    x.classList.toggle("toggle-class-style");
+}
 
+
+function addClassName() {
+    var x = document.getElementById("divClassAdd");
+    x.classList.add("add-class-style");
+}

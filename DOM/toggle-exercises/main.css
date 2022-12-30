@@ -2,3 +2,21 @@
     background-color: black;
     color: aliceblue;
 }
+
+.toggle-class-style {
+    width: 80%;
+    height: 80px;
+    background-color: darkcyan;
+    color: aliceblue;
+    font-size: 26px;
+    box-sizing: border-box;
+}
+
+
+.add-class-style {
+    width: 80%;
+    height: 300px;
+    background: darkgreen;
+    font-size: 28px;
+    box-sizing: border-box;
+}
