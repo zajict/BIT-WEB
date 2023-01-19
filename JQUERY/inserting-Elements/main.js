@@ -1,41 +1,45 @@
 $(function () {
-    var $galeryContainer = $("<div></div>");
-    $galeryContainer.addClass(".gallery");
-    $("body").append($galeryContainer);
-    $galeryContainer.prepend("<h2>Amazing Gallery</h2>");
-    $galeryContainer.find("h2").css({marginLeft: "50%", transform: "translateX(-15%)"});
 
-    function addImmg(node, imgUrl) {
-        $img = $("<img/>");
-        $img.attr("src", imgUrl);
-        node.append($img);
-    }
-
-    var imgUrlarr = [
-        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    var images = [
         "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
+        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+        "https://images.pexels.com/photos/6665218/pexels-photo-6665218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1jpg"
     ];
 
-    imgUrlarr.forEach(function (el) {
-        addImmg($galeryContainer, el);
+    var container = $("<div></div>");
+    container.insertBefore("script");
+
+    images.forEach(function (image) {
+        var img = $("<img>");
+        img.attr("src", image);
+        img.appendTo(container);
     });
 
-    function setWidthAndHight() {
-        return Math.round(Math.random() * (750 - 150 + 1) + 150);
-    }
+    container.prepend("<h1>Animal Images</h1>");
 
-    $galeryContainer.find("img").each(function (index, el) {
-        var newEl = $(el);
-        newEl.height(setWidthAndHight());
-        newEl.width(setWidthAndHight());
-
-        if (newEl.width() < 250) {
-            newEl.css({border: "3px solid green"});
-        }
+    container.find("img").each(function () {
+        var width = Math.floor(Math.random() * 200) + 100;
+        var height = Math.floor(Math.random() * 400) + 100;
+        $(this).css({
+            width: width + "px",
+            height: height + "px"
+        });
     });
+
+    container.find("img").each(function () {
+        var width = $(this).width();
+        if (width < 200) {
+            $(this).css("border", "3px solid green");
+        } else {
+            return false;
+        };
+    });
+
 });
+
