@@ -1,6 +1,8 @@
 
 function getCountryByIP() {
     var xhr = new XMLHttpRequest();
+    var ipAddress = document.getElementById("input").value;
+
     xhr.open('GET', 'http://www.geoplugin.net/xml.gp?ip=xx.xx.xx.xx', true);
 
 
