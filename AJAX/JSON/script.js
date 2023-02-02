@@ -11,7 +11,7 @@ function getDogImage() {
 
             var image = document.createElement("img");
             image.src = imageURL;
-            document.getElementById("dog-images").appendChild(image);
+            document.getElementById("gallery").appendChild(image);
         } else {
             console.log("Error" + xhr.status);
         }
