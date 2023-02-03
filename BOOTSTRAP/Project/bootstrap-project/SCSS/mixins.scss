@@ -1,0 +1,18 @@
+@mixin border {
+    .border {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .line {
+        width: 120px;
+        border-top: 1px solid white;
+    }
+    .bi{
+        z-index: 1;
+        position: relative;
+        bottom: 10px;
+    }
+}

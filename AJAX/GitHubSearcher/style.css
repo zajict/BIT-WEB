@@ -8,7 +8,7 @@ body{
 }
 
 
-.main-box{
+#main-box{
     display: flex;
     justify-content: right;
 }

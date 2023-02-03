@@ -1,0 +1,232 @@
+/* STYLE*/
+header {
+  background-color: #293e4f;
+  color: #fff;
+  height: 100px;
+  text-transform: uppercase; }
+
+header nav .nav-link {
+  color: #fff; }
+
+span {
+  position: relative;
+  top: 35px;
+  padding: 5px; }
+
+/*Hamburger meni*/
+.hamburger {
+  display: none;
+  cursor: pointer; }
+
+.bar {
+  position: relative;
+  left: 300px;
+  top: -2px;
+  display: block;
+  width: 35px;
+  height: 5px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white; }
+
+@media (max-width: 992px) {
+  .hamburger {
+    display: block; }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0; }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(5px) rotate(35deg); }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-35deg); }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #293e4f;
+    width: 50%;
+    text-align: center;
+    transition: 0.3s; }
+
+  .nav-item {
+    margin: 12px 0; }
+
+  .nav-menu.active {
+    left: 0; } }
+/*fIRST SECTION */
+section {
+  background-color: #00bc9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 600px;
+  height: 400px; }
+  section h1, section h5 {
+    color: #fff; }
+
+.firstP {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: bold; }
+
+h5 {
+  margin-bottom: 20px; }
+
+.first img {
+  margin-top: 20px; }
+
+/*3.SECTION*/
+.images {
+  max-width: 900px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .images img {
+    width: 300px; }
+
+.headingThree {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+
+#about-section {
+  margin: 0 auto;
+  padding: 30px; }
+
+.about-heading {
+  background-color: #00bc9c;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #fff; }
+
+.about {
+  background-color: #00bc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #fff;
+  height: 100px;
+  width: 60%; }
+
+.prvi {
+  margin-right: 20px; }
+
+.between {
+  height: 50px;
+  background-color: #00bc9c; }
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; }
+
+#contact-form {
+  max-width: 90%;
+  width: 40%;
+  margin: 50px auto; }
+
+.contact-input {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #e0e0e0; }
+
+#message-contact-textarea {
+  padding-top: 25px;
+  height: 200px; }
+
+.div-footer {
+  background-color: #293e4f;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+#send-button {
+  background-color: #00bc9c;
+  border: #00bc9c; }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px; }
+
+.center {
+  position: relative;
+  left: 30px; }
+
+.footer div {
+  width: 300px; }
+
+.icons {
+  position: relative;
+  left: 45px;
+  padding: 10px; }
+
+.icons svg {
+  padding-right: 2px; }
+
+.border {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.line {
+  width: 120px;
+  border-top: 1px solid white; }
+
+.bi {
+  z-index: 1;
+  position: relative;
+  bottom: 10px; }
+
+.border-portfolio {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.border-portfolio .line {
+  width: 120px;
+  border-top: 1px solid #0c0b0b;
+  position: relative;
+  left: 380px; }
+
+.border-portfolio > .bi {
+  z-index: 3;
+  position: relative;
+  bottom: 10px; }
+
+.footer-inner-center-p {
+  display: inline-block;
+  margin-top: 50px; }
+
+.location-p {
+  margin: 0px; }
+
+/*# sourceMappingURL=style.css.map */
