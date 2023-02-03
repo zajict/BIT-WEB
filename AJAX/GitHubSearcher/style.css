@@ -1,22 +1,42 @@
-header {
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    padding: 10px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+body{
+    background-color:#eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
 }
 
-#input {
-    width: 300px;
-    height: 35px;
+
+.main-box{
+    display: flex;
+    justify-content: right;
+}
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1); 
     border-radius: 30px;
 }
 
-#images {
-    position: absolute;
-    right: 280px;
-    padding-bottom: 4px;
+
+.search input{
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: 30px;
+    margin-top: 20px;
 }
 
-#input::placeholder {
-    padding-left: 60px;
+
+.search input:focus{
+    box-shadow: none;
+    border: 2px solid rgb(79, 99, 131);
+}
+
+
+.search .fa-search{
+    position: absolute;
+    top: 20px;
+    left: 16px;
 }
